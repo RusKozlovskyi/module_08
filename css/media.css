@@ -1,6 +1,9 @@
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 1199.98px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .header {
@@ -28,7 +31,7 @@
     align-items: center;
     flex-direction: column;
     width: 500px;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .title_sub {
@@ -100,7 +103,9 @@
 
 @media only screen and (min-width: 1200px) {
   .container {
-    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
   }
 
   .header_img {
@@ -129,7 +134,7 @@
     flex-direction: column;
     height: 260px;
     width: 490px;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .text {
